@@ -4,7 +4,7 @@ Feature: Login Skype Page
   @tag4
   Scenario: Login with correct user name and password
     Given Open Login skype page
-     When "nhatdhse" logged in with password is "dung2192"
+     When "nhatdhse" logged in with password is ""
      Then I verify page title is "Skype My Account"
   
   @tag5
